@@ -1,34 +1,9 @@
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+    if (GAmestartcheck == true) {
+        Gamestartcheck()
+    }
+})
 function Start_screen () {
-    Logo = sprites.create(assets.image`Logo`, SpriteKind.Text)
-    Logo_TOp = sprites.create(img`
-        bbbd.........dbbbbbb.bbbbd....bbbbd............bbbb..........dbbbbbbbbbbbbbbbbbbb..bbbbbbbbbbbbbbbbbd................ddbbbbd.........dbbbb................dbbbb
-        fffb........bfffffcd.cfffb....fffffd..........dffffd.......bcfffffffffffffffffffb..ffffffffffffffffffcb............dcfffffffcb.......bffffb...............cffff
-        fffb......dcfffffb...cfffb....fffffcd.........dffffd.....dcffffffffffffffffffffc...ffffffffffffffffffffcd.........bfffffffffffcd.....bfffff..............dfffff
-        fffb.....bfffffcd....cfffb....ffffffcd........dffffd....bffffffffffffffffffffffb...ffffffffffffffffffffffd.......bffffffffffffffd....bfffffb.............cfffff
-        fffb....cfffffcd.....cfffb....fffffffc........dffffd...dfffffffcccccccccccccccc....ffffccccccccccccfffffffd.....bfffffffccfffffffd...bffffffd...........bffffff
-        fffb..dcfffffb.......cfffb....ffffffffb.......dffffd..dcffffcb.....................ffffd...........dbcffffc....dfffffcd...dbcffffc...bffffffc...........cffffff
-        fffb.bfffffcd........cfffb....fffffffffb......dffffd..bffffc.......................ffffd.............dcffffd...cffffb.......dcffffd..bfffffffd.........bfffffff
-        fffccfffffb..........cfffb....ffffbfffffb.....dffffd..cfffc........................ffffd..............dffffc..dffffc.........dffffc..bfffffffc........dffffffff
-        ffffffffcd...........cfffb....ffffdbfffffd....dffffd.dffffb.....ddddddddddd........ffffd...............bffffd.bffffd..........bffffd.bffffffffd.......bffffffff
-        fffffffcd............cfffb....ffffd.bffffcd...dffffd.bffffd....dffffffffffc........ffffd...............dffffd.cfffc...........dffffd.bffffcfffc......dffffcffff
-        ffffffb..............cfffb....ffffd..cffffc...dffffd.bfffc.....dfffffffffffb.......ffffd................ffffb.cfffb............ffffb.bffffbffffb.....cffffbffff
-        ffffffd..............cfffb....ffffd...cffffc..dffffd.bfffc.....dffffffffffffd......ffffd................ffffb.cfffb............ffffb.bffffdcfffc....dffffbbffff
-        fffffffb.............cfffb....ffffd...dcffffb.dffffd.bffffd....dcfffffffffffb......ffffd...............dffffd.cfffc...........dffffd.bffffddffffd...cffff.bffff
-        ffffffffcd...........cfffb....ffffd....dfffffbdffffd.dffffd.............bffffd.....ffffd...............bffffd.bffffd..........bffffd.bffffd.cffff..dffffb.bffff
-        fffccfffffb..........cfffb....ffffd.....dfffffbffffd..ffffc..............cfffc.....ffffd..............dffffc..dffffb.........dcfffc..bffffd.bffffb.cffffd.bffff
-        fffb.cfffffc.........cfffb....ffffd......bfffffffffd..bffffc.............dffffd....ffffd..............cffffd...cffffb........cffffd..bffffd..cfffcdffffb..bffff
-        fffb..bfffffcb.......cfffb....ffffd.......bffffffffd..dfffffcd............cfffc....ffffd............bcffffc....dfffffcd....bcffffc...bffffd..dfffffffffd..bffff
-        fffb...dcfffffb......cfffb....ffffd........cfffffffd...bffffffcccccccccccccffffb...ffffccccccccccccfffffffd.....cffffffcccfffffffd...bffffd...cfffffffb...bffff
-        fffb.....bfffffcd....cfffb....ffffd.........cffffffd....bffffffffffffffffffffffc...ffffffffffffffffffffffd.......cffffffffffffffd....bffffd...bfffffffd...bffff
-        fffb......dcfffffb...cfffb....ffffd.........dcfffffd.....bffffffffffffffffffffffb..ffffffffffffffffffffcd.........bfffffffffffcd.....bffffd....cfffffb....bffff
-        fffb........cfffffcd.cfffb....ffffd..........dfffffd......dbfffffffffffffffffffff..fffffffffffffffffffb............dcffffffffb.......bffffd....bfffffd....bffff
-        cccd.........bcccccb.bcccd....bcccd...........dccccd........dbbccccccccccccccffffb.bcccccccccccccccbd................dbbccbd.........dcccc......bcccb.....dcccc
-        .............................................................................bfffc.............................................................................
-        ..............................................................................cfffb............................................................................
-        ..............................................................................bffffd...........................................................................
-        ...............................................................................bcccb...........................................................................
-        `, SpriteKind.Text)
-    Logo_TOp.setPosition(80, 20)
     game.setDialogFrame(img`
         .3333333333333333333333.
         355344994499449944993553
@@ -65,17 +40,50 @@ function Start_screen () {
         . f d d d f . 
         . . f f f . . 
         `)
+    scene.setBackgroundImage(assets.image`82x0`)
+    Logo = sprites.create(assets.image`Logo`, SpriteKind.Text)
+    Logo_TOp = sprites.create(img`
+        bbbd.........dbbbbbb.bbbbd....bbbbd............bbbb..........dbbbbbbbbbbbbbbbbbbb..bbbbbbbbbbbbbbbbbd................ddbbbbd.........dbbbb................dbbbb
+        fffb........bfffffcd.cfffb....fffffd..........dffffd.......bcfffffffffffffffffffb..ffffffffffffffffffcb............dcfffffffcb.......bffffb...............cffff
+        fffb......dcfffffb...cfffb....fffffcd.........dffffd.....dcffffffffffffffffffffc...ffffffffffffffffffffcd.........bfffffffffffcd.....bfffff..............dfffff
+        fffb.....bfffffcd....cfffb....ffffffcd........dffffd....bffffffffffffffffffffffb...ffffffffffffffffffffffd.......bffffffffffffffd....bfffffb.............cfffff
+        fffb....cfffffcd.....cfffb....fffffffc........dffffd...dfffffffcccccccccccccccc....ffffccccccccccccfffffffd.....bfffffffccfffffffd...bffffffd...........bffffff
+        fffb..dcfffffb.......cfffb....ffffffffb.......dffffd..dcffffcb.....................ffffd...........dbcffffc....dfffffcd...dbcffffc...bffffffc...........cffffff
+        fffb.bfffffcd........cfffb....fffffffffb......dffffd..bffffc.......................ffffd.............dcffffd...cffffb.......dcffffd..bfffffffd.........bfffffff
+        fffccfffffb..........cfffb....ffffbfffffb.....dffffd..cfffc........................ffffd..............dffffc..dffffc.........dffffc..bfffffffc........dffffffff
+        ffffffffcd...........cfffb....ffffdbfffffd....dffffd.dffffb.....ddddddddddd........ffffd...............bffffd.bffffd..........bffffd.bffffffffd.......bffffffff
+        fffffffcd............cfffb....ffffd.bffffcd...dffffd.bffffd....dffffffffffc........ffffd...............dffffd.cfffc...........dffffd.bffffcfffc......dffffcffff
+        ffffffb..............cfffb....ffffd..cffffc...dffffd.bfffc.....dfffffffffffb.......ffffd................ffffb.cfffb............ffffb.bffffbffffb.....cffffbffff
+        ffffffd..............cfffb....ffffd...cffffc..dffffd.bfffc.....dffffffffffffd......ffffd................ffffb.cfffb............ffffb.bffffdcfffc....dffffbbffff
+        fffffffb.............cfffb....ffffd...dcffffb.dffffd.bffffd....dcfffffffffffb......ffffd...............dffffd.cfffc...........dffffd.bffffddffffd...cffff.bffff
+        ffffffffcd...........cfffb....ffffd....dfffffbdffffd.dffffd.............bffffd.....ffffd...............bffffd.bffffd..........bffffd.bffffd.cffff..dffffb.bffff
+        fffccfffffb..........cfffb....ffffd.....dfffffbffffd..ffffc..............cfffc.....ffffd..............dffffc..dffffb.........dcfffc..bffffd.bffffb.cffffd.bffff
+        fffb.cfffffc.........cfffb....ffffd......bfffffffffd..bffffc.............dffffd....ffffd..............cffffd...cffffb........cffffd..bffffd..cfffcdffffb..bffff
+        fffb..bfffffcb.......cfffb....ffffd.......bffffffffd..dfffffcd............cfffc....ffffd............bcffffc....dfffffcd....bcffffc...bffffd..dfffffffffd..bffff
+        fffb...dcfffffb......cfffb....ffffd........cfffffffd...bffffffcccccccccccccffffb...ffffccccccccccccfffffffd.....cffffffcccfffffffd...bffffd...cfffffffb...bffff
+        fffb.....bfffffcd....cfffb....ffffd.........cffffffd....bffffffffffffffffffffffc...ffffffffffffffffffffffd.......cffffffffffffffd....bffffd...bfffffffd...bffff
+        fffb......dcfffffb...cfffb....ffffd.........dcfffffd.....bffffffffffffffffffffffb..ffffffffffffffffffffcd.........bfffffffffffcd.....bffffd....cfffffb....bffff
+        fffb........cfffffcd.cfffb....ffffd..........dfffffd......dbfffffffffffffffffffff..fffffffffffffffffffb............dcffffffffb.......bffffd....bfffffd....bffff
+        cccd.........bcccccb.bcccd....bcccd...........dccccd........dbbccccccccccccccffffb.bcccccccccccccccbd................dbbccbd.........dcccc......bcccb.....dcccc
+        .............................................................................bfffc.............................................................................
+        ..............................................................................cfffb............................................................................
+        ..............................................................................bffffd...........................................................................
+        ...............................................................................bcccb...........................................................................
+        `, SpriteKind.Text)
+    Logo_TOp.setPosition(80, 20)
     game.showLongText("Press A to start", DialogLayout.Bottom)
+    GAmestartcheck = true
 }
-controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    Gamestartcheck()
-})
 function Gamestartcheck () {
-    sprites.destroy(Logo, effects.spray, 500)
-    sprites.destroy(Logo_TOp, effects.spray, 500)
+    Logo.setStayInScreen(false)
+    Logo_TOp.setStayInScreen(false)
+    Logo.setFlag(SpriteFlag.GhostThroughWalls, true)
+    Logo_TOp.setFlag(SpriteFlag.GhostThroughWalls, true)
+    sprites.destroyAllSpritesOfKind(SpriteKind.Text)
 }
 let Logo_TOp: Sprite = null
 let Logo: Sprite = null
+let GAmestartcheck = false
 let Musicfinished = true
 Start_screen()
 forever(function () {
