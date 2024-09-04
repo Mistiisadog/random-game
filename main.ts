@@ -4,43 +4,55 @@ enum ActionKind {
     Jumping,
     AttackKnight
 }
-controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    if (GAmestartcheck == true) {
-        Gamestartcheck()
+namespace SpriteKind {
+    export const weapon = SpriteKind.create()
+    export const weaponsgohere = SpriteKind.create()
+}
+function hypotenuse (a: number, b: number) {
+    return Math.sqrt(a ** 2 + b ** 2)
+}
+function CalSpriteDis (Start: Sprite, End: Sprite) {
+    xdistance = Start.x - End.x
+    ydistance = Start.y - End.y
+    return Math.sqrt(xdistance ** 2 + ydistance ** 2)
+}
+let Musicfinished = false
+let mySprite2: Sprite = null
+let ydistance = 0
+let xdistance = 0
+game.setDialogFrame(assets.image`frame`)
+game.setDialogCursor(assets.image`coincursor`)
+scene.setBackgroundImage(assets.image`82x0`)
+let mySprite = sprites.create(assets.image`Knight_dogeidle`, SpriteKind.Player)
+controller.moveSprite(mySprite)
+let anim = animation.createAnimation(ActionKind.Walking, 100)
+animation.setAction(mySprite, ActionKind.Walking)
+animation.attachAnimation(mySprite, anim)
+anim.addAnimationFrame(assets.image`Knight_dogeidle`)
+anim.addAnimationFrame(assets.image`Knight_dogeforward`)
+anim.addAnimationFrame(assets.image`Knight_dogeidle`)
+anim.addAnimationFrame(assets.image`Knight_dogebackward`)
+mySprite.setPosition(80, 60)
+/**
+ * Unused code for path finder
+ */
+game.onUpdate(function () {
+	
+})
+game.onUpdateInterval(0.1, function () {
+    if (controller.A.isPressed() && controller.right.isPressed()) {
+        mySprite2 = sprites.createProjectileFromSprite(assets.image`SWordiconfacingupright`, mySprite, 50, 0)
+        pause(100)
+    } else if (controller.A.isPressed() && controller.left.isPressed()) {
+        mySprite2 = sprites.createProjectileFromSprite(assets.image`SWordiconfacingupleft`, mySprite, -50, 0)
+        pause(100)
+        sprites.destroy(mySprite2)
+    } else if (mySprite.vy > 0) {
+    	
+    } else if (mySprite.vy < 0) {
+    	
     }
 })
-function Start_screen () {
-    game.setDialogFrame(assets.image`frame`)
-    game.setDialogCursor(assets.image`coincursor`)
-    scene.setBackgroundImage(assets.image`82x0`)
-    Logo = sprites.create(assets.image`Logo`, SpriteKind.Text)
-    Logo_TOp = sprites.create(assets.image`kingdom`, SpriteKind.Text)
-    Logo_TOp.setPosition(80, 20)
-    game.showLongText("Press A to start", DialogLayout.Bottom)
-    GAmestartcheck = true
-}
-function Gamestartcheck () {
-    Logo.setStayInScreen(false)
-    Logo_TOp.setStayInScreen(false)
-    Logo.setFlag(SpriteFlag.GhostThroughWalls, true)
-    Logo_TOp.setFlag(SpriteFlag.GhostThroughWalls, true)
-    sprites.destroyAllSpritesOfKind(SpriteKind.Text)
-    mySprite = sprites.create(assets.image`BLueknight`, SpriteKind.Player)
-    anim = animation.createAnimation(ActionKind.Walking, 500)
-    animation.setAction(mySprite, ActionKind.Walking)
-    animation.attachAnimation(mySprite, anim)
-    anim.addAnimationFrame(assets.image`BLueknight`)
-    anim.addAnimationFrame(assets.image`BLueknight2`)
-    anim.addAnimationFrame(assets.image`BLueknight`)
-    anim.addAnimationFrame(assets.image`BLueknight3`)
-}
-let anim: animation.Animation = null
-let mySprite: Sprite = null
-let Logo_TOp: Sprite = null
-let Logo: Sprite = null
-let GAmestartcheck = false
-let Musicfinished = true
-Start_screen()
 forever(function () {
     if (Musicfinished == true) {
         Musicfinished = false

@@ -3,304 +3,6 @@ namespace myImages {
 
     helpers._registerFactory("image", function(name: string) {
         switch(helpers.stringTrim(name)) {
-            case "image1":
-            case "Logo":return img`
-bbbbbbbbbbbbbbbbd............bc...........bbbbd....bbbbbbbbbbbbbbbbbbd..........bbbbbbbbbbbbbbbbbbbbbb....bbbbbbbbbbbbbbbbbd.................dbbbbbbbbbbbbbbb..
-33333333333333333cd.........d33d..........3333b....c3333333333333333333b.......d333333333333333333333c....333333333333333333cd.............dc333333333333333c..
-3333333333333333333b........b33c..........3333b....c33333333333333333333cd.....d333333333333333333333c....33333333333333333333d...........b33333333333333333c..
-33333333333333333333d.......3333d.........3333b....c3333333333333333333333d....d333333333333333333333c....33333333333333333333c..........d333333333333333333c..
-3333ccccccccccc33333c......b3333b.........3333b....c3333cccccccccccc3333333d...d3333cccccccccccccccccc....3333cccccccccccc33333b.........c33333cccccccccccccb..
-333c...........dc3333.....d333333d........3333b....c333c............db33333c...d3333b.....................3333b...........d3333c.........33333d................
-333c............b3333d....b333333b........3333b....c333c..............dc3333b..d3333b.....................3333b............c333c........d3333b.................
-333c............b3333d....c3333333........3333b....c333c...............d3333c..d3333b.....................3333b............c333c........d3333c.................
-333c...ddddddddb33333....b33333333b.......3333b....c333c................b3333d.d3333b.....ddddddddddd.....3333b...ddddddddb3333c.........c3333bdddddddddd......
-333c...c333333333333b....c333333333d......3333b....c333c................d3333b.d3333b....d33333333333c....3333b..d3333333333333d.........b3333333333333333cd...
-333c...b33333333333c....b3333cc3333b......3333b....c333c................d3333b.d3333b....d33333333333c....3333b...c33333333333c...........c33333333333333333b..
-333c....c333333333cd....c3333dd3333c......3333b....c333c................d3333b.d3333b....d33333333333c....3333b...d3333333333cd...........dc33333333333333333b.
-333c....d33333333c.....d3333c..c3333b.....3333b....c333c................d3333b.d3333b....d33333333333c....3333b....b33333333b...............c33333333333333333d
-333c.....c3333bbd......c3333d..d33333.....3333b....c333c................d3333d.d3333b.....bbbbbbbbbbbd....3333b....d3333cbdd.................ddbbbbbbbbbbc3333b
-333c.....d3333d.......d3333c....c3333b....3333b....c333c................c3333d.d3333b.....................3333b.....b333c.................................c333c
-333c......c333c.......c3333d....d3333c....3333b....c333c...............b3333c..d3333b.....................3333b......c333b................................b333c
-333c......d3333d.....d3333c......c3333d...3333b....c333c..............b33333d..d3333b.....................3333b......b3333d...............................c333c
-333c.......c333c.....c3333b......d3333c...3333b....c333cddddddddddddbc33333c...d3333bddddddddddddddddd....3333b.......c333c...dddddddddddddddddddddddddddc3333c
-333c........3333b...d33333........c3333d..3333b....c3333333333333333333333c....d333333333333333333333c....3333b.......d3333d..c3333333333333333333333333333333d
-333c........b333c...c3333b........d3333c..3333b....c333333333333333333333cd....d333333333333333333333c....3333b........c333c..c333333333333333333333333333333c.
-333c........d3333b.d3333c..........c3333d.3333b....c33333333333333333333b......d333333333333333333333c....3333b........d3333d.c33333333333333333333333333333c..
-333b.........b333c.b3333b..........b3333c.c333b....c333333333333333333bd.......d333333333333333333333c....3333b.........c333c.c3333333333333333333333333333b...
-dddd..........dddd.ddddd............ddddd.ddddd....dddddddddddddddddd...........dddddddddddddddddddddd....dddd...........dddd.dddddddddddddddddddddddddddd.....
-`;
-            case "F,!TWJM|]!=D2B|8WADv":
-            case "Start Screen":return img`
-4444444444444444444444444444444444444444444444444444444444444444444444444444444
-4444444444444444444444444444444444444444444444444444444444444444444444444444444
-4444444444444444444444444444444444444d11b44444444444444444444444444444444444444
-444444444444444444444444444444444444b111bb4444444444444444444444444444444444444
-444444444444444444444444444444444444d111bb4444444444444444444444444444444444444
-4444444444444444444444444444444444cd1111db4444444444444444444444444444444444444
-444444444444444444444444444444444bd11d11db4444444444444444444444444444444444444
-444444444444444444444444444444444b11d43ddbc444444444444444444444444444444444444
-44444444444444444444444444444444bd134eebddbc44444444444444444444444444444444444
-4444444444444444444444444444444bd1144efedddc44444444444444444444444444444444444
-4444444444444444444444444444444d1114effcdddcb4444444444444444444444444444444444
-444444444444444444444444444444bd113efffced1bcb444444444444444444444444444444444
-444444444444444444444444444444d11dbeffffeb1dbb444444444444444444444444444444444
-44444444444444444444444444444d11defffffffcbdbfb44444444444444444444444444444444
-44444444444444444444444444444b11dcffffffffcbcfb44444444444444444444444444444444
-4444444444444444444444444444dcd1dffffffffffbcfb44444444444444444444444cb4444444
-444444444444444444444444444bdcd1dffffffffffbcfb444444444444444444444cbdcc444444
-44444444444444444444444444bddbddbcffffffffceccb44444444444444444444cddbc4444444
-44444444444444444444444444bddb4eeeeffffffceeeffc44444444444444444cbddbcc4444444
-44444444444444444444444444bbccceeeeeecffceecfccc4444444444444444cb1dbcc44444444
-4444444444444444444444444bdd11dbbccceeeecffcbbce444444444444444cbdbccfc44444444
-44444444444444444444444444bcbdd111bffcffffcbbcfc44444444444444cb1dbcfc444444444
-444444444444444444444444444bbbbbbddcfceeeeeccfc44444444444444cbddbcf44444444444
-44444444444444444444444444bbddbcffffffffffffffb444444444444cbdddccc444444444444
-44444444444444444444444444bb1dbcfbbecffffccfffc444444444444b1dbbcc4444444444444
-44444444444444444444444444bb1dbcfd11bcfffccfffc4444444444cb1dbccc44444444444444
-4444444444444444444444444bcb1dcffccccfffffffffffc4444444bd1dbcfc444444444444444
-444444444444444444444444bdd1dbfffffffffffffffffccb4444bcbddbcc44444444444444444
-444444444444444444444444b111dbfffffffffffffffffcbb44bbbd1bbcf444444444444444444
-444444444444444444444444b11dbcffeeecfffffffffffcbb4bccbdbcff4444444444444444444
-444444444444444444444444b11dbcfffffffffffffffffcbbbcffccc4444444444444444444444
-444444444444444444444444b11dbcfcddddeeeffccffffcccbfffcc44444444444444444444444
-444444444444444444444444bbccccfb1111beecfcbccfffffccccf444444444444444444444444
-4444444444444444444444444cffffcd111deeecfcbbbffffffcccf444444444444444444444444
-4444444444444444444444444cccfcd11114eeecfcbdbfffffcccc4444444444444444444444444
-4444444444444444444444444cccfcd11114eeecfceddffffffcb44444444444444444444444444
-4444444444444444444444444cccfcd111deeeeffceddbcfceeb444444444444444444444444444
-4444444444444444444444444bccbdb11deeeeffffeb1becccb4444444444444444444444444444
-444444444444444444444444ccccccb11deeeeffffcb1beecc44444444444444444444444444444
-44444444444444444444444fcccbbbd11beeeeffffcb1bcc4444444444444444444444444444444
-444444444444444444444cceeffccd11deeeeefffffcdbbc4444444444444444444444444444444
-44444444444444444444cb3efffcd111decffffffffcdbbc4444444444444444444444444444444
-4444444444444444444ce3eff4cc1111decffffffffffebc4444444444444444444444444444444
-444444444444444444ceeeff44cc1111decffffffffffeb44444444444444444444444444444444
-44444444444444444ceecfc44ccb1111dbcffffffffffebb4444444444444444444444444444444
-444444444444444ceeecfc444fd11111dbfffffffffffbbbb444444444444444444444444444444
-44444444444444ceeefc44444fd111ddbcfffffffffffbddb444444444444444444444444444444
-4444444444444ceecfc444444fd111bfffffffffffffffcbb444444444444444444444444444444
-444444444444ceefc44444444fbddbcffffffffffffffccc4444444444444444444444444444444
-4444444444cceefc444444444ccbcffffffeeeecffcccc4c4444444444444444444444444444444
-444444444ccecc444444444444cfffffffeeeeeeffccfc444444444444444444444444444444444
-44444444cecc444444444444444cfffffceeeeeeeffffc444444444444444444444444444444444
-4444444ccc444444444444444444ffffceeeeeeeeffffc444444444444444444444444444444444
-4444444cc4444444444444444444ccffceeeeeeeeffcc4444444444444444444444444444444444
-4444444444444444444444444444ccffceeeeeeeefffcfc44444444444444444444444444444444
-44444444444444444444444ffffffffffffffffffffccccfffffff4444444444444444444444444
-444cccccccccccccccccccfffffffffffffffffffffffffffffffffcccccccccccccccccccccc44
-444cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc44
-4444444444444444444444444444444444444444444444444444444444444444444444444444444
-4444444444444444444444444444444444444444444444444444444444444444444444444444444
-`;
-            case "image2":
-            case "82x83":return img`
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeb11deeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeed11deeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeb111dbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeed111dbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecb1111dbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebb1111dbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeed11dddddbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee11ddddddbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeed11dddbddbcbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeb11ddecebddbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebd11ddeccbddbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeb111decfcbddbbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebb11dbefffedddcceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebd11deffefedddbcbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeed111befeeffed1dcbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeb11dbffee44ffeddccbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeed11deffe494ffcbdcfbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeebbd1dcfee49943fcbcfbeeeeeeeeeeeeeeeeeeeeeeeeeceeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeedcd1dffe455943fcbcfbeeeeeeeeeeeeeeeeeeeeeeeccbeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeedcd1dffe48594ffcbcfbeeeeeeeeeeeeeeeeeeeeeeccdcceeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeebddcd1dffee9944ffcecfbeeeeeeeeeeeeeeeeeeeeeccdbfceeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeebeeeeeeeffee4fffce4fcbeeeeeeeeeeeeeeeeeeeecbddcceeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeee444444ecffffffe44cffeeeeeeeeeeeeeeeeeeecd1bbcceeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee4eecffffe4cfffeeeeeeeeeeeeeeeeeecd1dbcceeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeddddccceeeeeefce44fccceeeeeeeeeeeeeeeeecb1dbbcceeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeebbb11ddbccccccccccfcbbceeeeeeeeeeeeeeeeccddbbcceeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeebcbdd11ddddddddddcbbcfeeeeeeeeeeeeeeeccddbbbcceeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeebcbdddd1dddddddddbbbfceeeeeeeeeeeeeeecd1dbccceeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeebbbbccbbcfceeeeecfffceeeeeeeeeeeeeecdddbbcceeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeebbddbcffffee444ffffffbeeeeeeeeeeeeecdddbbcceeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeebb11bcccccce4444cccccbeeeeeeeeeeeecd1dbbcceeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeebb11bc11111e4444dddddbeeeeeeeeeeecd1dbbcceeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeebb11bc1dddde4444dddddceeeeeeeeebcb1ddbcceeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeecb1dbcfccbcee444cccccfcbeeeeeeebbdddbcceeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeebcb11dcffffeeeeeeeeefffffceeeeeebbdddbcceeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeb111ddfffeeeeeeeeeeeeffcbcbeeeebcdddbcceeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeb111dbffeee4444444444effbcbeebbbd1dbccceeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeb11dbbffe444444444444effbcbebccbddbccceeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeb11dbbff44444eeeeeeeefffbcbbccccbcccbeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeb11dbbffffffffffffffffffbcbbcffccccebeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeb11dbbfcbddddddfffcfffffcccbfffccffcbeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeecddbbcfc1111111cffccfffffffccfccfffceeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeebffffffc11111112ffbbbcffffffcccffbeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeecffffcd11111112ffcbbbfffffcccccbeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeecccfcd111111112ff2bdbfffffccccbeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeecccccb111111112ff2bdbfffffffcbeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeecccfcb11111111cff2bdbfffffcbeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeecccfcb1111111dcff2bddcffeeebeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeccccdb111111d2fffcbddbcccceeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeebccccdc111111dcffffcd1bcecceeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeecccccfb1111112cffffcd1bceceeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeefccccbcb1111112cffffcd1bcceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeecc4cfcbbd1111112cfffffb1bcceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeecc44fffcd11111d22ffffffb1bcceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeec4444ffcd11111dfffffffffbdbcceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeec44444ccc111111dffffffffffcbcceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeec44444cecc1111112fffffffffffbbceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeecc4444ceecc1111112fffffffffffbbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeec4444ceeecb1111112fffffffffffbbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeecc4444ceeefbd1111112fffffffffffbbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeecc444cceeeefd111111dffffffffffffdddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeec444cceeeeefd111ddbbffffffffffffbddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeec444cceeeeeefd111dffffffffffffffffcbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeec44cceeeeeeeefd11dbffffffffffffffffcbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeec44cceeeeeeeeefbbbcffffffccccffffffccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeec444ceeeeeeeeeeccbcffffffceeecfffcccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeec44cceeeeeeeeeeeecffffffffeeeeecffccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeec44ceeeeeeeeeeeeeecccfffffceeeeeeffcffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeec44ceeeeeeeeeeeeeeeeefffffeeeeeeeecffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeec44ceeeeeeeeeeeeeeeeeefffffeeeeeeeecffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeec4ceeeeeeeeeeeeeeeeeeecffffeeeeeeeecfffceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeecceeeeeeeeeeeeeeeeeeeecccffeeeeeeeecfccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeceeeeeeeeeeeeeeeeeeeeccccffeeeeeeeecfffffceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeecccccccfffccccccccfffffffccccccceeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeecfffffffffffffffffffffcccffffffffceeeeeeeeeeeeeeeeeeeeeeeee
-eeecffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffccee
-eeeeccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-`;
-            case "image3":
-            case "82x0":return img`
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebb111111ddbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeedd111111ddbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeedd111111ddbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccbb11111111ddbbbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccbb11111111ddbbbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbbb11111111ddbbbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeedd1111ddddddddddbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeedd1111ddddddddddbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee1111ddddddddddddbbbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeedd1111ddddddbbddddbbccbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeedd1111ddddddbbddddbbccbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbb1111ddddeecceebbddddbbbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbddd1111ddddeeccccbbddddbbbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbddd1111ddddeeccccbbddddbbbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebb1111111ddeeccffccbbddddbbbbbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebb1111111ddeeccffccbbddddbbbbbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbbb11111ddbbeeffffffeeddddddcccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbdd11111ddeeffff33ffeeddddddbbccbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbdd11111ddeeffff33ffeeddddddbbccbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeedd1111111bbeeff3333ffffeedd11ddccbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebb1111dddbbffff33333333ffffeeddddccccbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebb1111dddbbffff33333333ffffeeddddccccbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeedd1111dddeeffff33333333ffffccbbddccffbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbbbdd11dddccff33333333333333ffccbbccffbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecceeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbbbdd11dddccff33333333333333ffccbbccffbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecceeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeddccdd11dddffff33333333333333ffccbbccffbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccbbeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeddccdd11dddffff33333333333333ffccbbccffbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccbbeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeddccdd11dddffff333333333333ffffccbbccffbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccddcccceeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbddddccdd11dddffff333333333333ffffcceeccffbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccddbbffcceeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbddddccdd11dddffff333333333333ffffcceeccffbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccddbbffcceeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbeeeeeeeeeeeeeeeffff333333ffffffccee44ffccbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccbbddddcccceeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee4444444444444eeccffffffffffffee4444ccffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccdd11bbbbcccceeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee4444444444444eeccffffffffffffee4444ccffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccdd11bbbbcccceeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee44eeeeccffffffffee44ccffffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccdd11ddbbcccceeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeddddddddccccccceeeeeeeeeeeeffccee4444ffcccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccbb11ddbbbbcccceeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeddddddddccccccceeeeeeeeeeeeffccee4444ffcccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccbb11ddbbbbcccceeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbbbbb1111ddddbbbccccccccccccccccccccffccbbbbcceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccccddddbbbbcccceeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbbbbb1111ddddbbbccccccccccccccccccccffccbbbbcceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccccddddbbbbcccceeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbccbbdddd11111ddddddddddddddddddddccbbbbccffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccdddddbbbbbbcccceeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbccbbddddddddd11ddddddddddddddddddbbbbbbffcceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccdd111ddbbcccccceeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbccbbddddddddd11ddddddddddddddddddbbbbbbffcceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccdd111ddbbcccccceeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbbbbbbbcccccbbbbccffcceeeeeeeeeeccffffffcceeeeeeeeeeeeeeeeeeeeeeeeeeeeeccdddddddbbbbcccceeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbbbddddbbccfffffffffeeee444444ffffffffffffbbeeeeeeeeeeeeeeeeeeeeeeeeeeeccddddddbbbbbcccceeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbbbddddbbccfffffffffeeee444444ffffffffffffbbeeeeeeeeeeeeeeeeeeeeeeeeeeeccddddddbbbbbcccceeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbbb1111bbcccccccccccccee44444444ccccccccccbbeeeeeeeeeeeeeeeeeeeeeeeeeccdd11ddbbbbbcccceeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbbb1111bbcc11111111111ee44444444ddddddddddbbeeeeeeeeeeeeeeeeeeeeeeeccdd11ddbbbbccccceeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbbb1111bbcc11111111111ee44444444ddddddddddbbeeeeeeeeeeeeeeeeeeeeeeeccdd11ddbbbbccccceeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbbb1111bbcc111ddddddddee44444444ddddddddddcceeeeeeeeeeeeeeeeeeebbccbb11ddddbbccccceeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbbb1111bbcc111ddddddddee44444444ddddddddddcceeeeeeeeeeeeeeeeeeebbccbb11ddddbbccccceeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccbb11ddbbccfffccccbbcceeee444444ccccccccccffcccbbeeeeeeeeeeeeeebbbbddddddbbcccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbccbb1111ddccfffffffffeeeeeeeeeeeeeeeeeefffffffffffcceeeeeeeeeeeebbbbddddddbbcccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbccbb1111ddccfffffffffeeeeeeeeeeeeeeeeeefffffffffffcceeeeeeeeeeeebbbbddddddbbcccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebb111111ddddfffffffeeeeeeeeeeeeeeeeeeeeeeeeffffccbbbccbbeeeeeeeebbccddddddbbcccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebb111111ddbbffffeeeeeee44444444444444444444eeffffbbbccbbeeeebbbbbbdd11ddbbcccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebb111111ddbbffffeeeeeee44444444444444444444eeffffbbbccbbeeeebbbbbbdd11ddbbcccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebb1111ddbbbbffffeee444444444444444444444444eeffffbbbccbbeebbccccbbddddbbcccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebb1111ddbbbbffff44444444444eeeeeeeeeeeeeeeeffffffbbbccbbbbccccccccbbccccccbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebb1111ddbbbbffff44444444444eeeeeeeeeeeeeeeeffffffbbbccbbbbccccccccbbccccccbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebb1111ddbbbbfffffffffffffffffffffffffffffffffffffbbbccbbbbccffffcccccccceebbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebb1111ddbbbbfffffffffffffffffffffffffffffffffffffbbbccbbbbccffffcccccccceebbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebb1111ddbbbbffccbbbddddddddddddffffffccffffffffffcccccccbbffffffccccffffccbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccddddbbbbccffcc111111111111111ccffffccccfffffffffffffffccccffccccffffffcceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccddddbbbbccffcc111111111111111ccffffccccfffffffffffffffccccffccccffffffcceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbffffffffffffcc11111111111111122ffffbbbbbbccfffffffffffffccccccffffbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccffffffffccdd11111111111111122ffffccbbbbbbfffffffffffccccccccccbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccffffffffccdd11111111111111122ffffccbbbbbbfffffffffffccccccccccbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccffccdd1111111111111111122ffff22bbddbbfffffffffffccccccccbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccccccbb1111111111111111122ffff22bbddbbfffffffffffffffccbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccccccbb1111111111111111122ffff22bbddbbfffffffffffffffccbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccffccbb11111111111111111ccffff22bbddbbfffffffffffccbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccffccbb11111111111111111ccffff22bbddbbfffffffffffccbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccffccbb111111111111111ddccffff22bbddddccfffffeeeeeebbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccccddbb1111111111111dd22ffffffccbbddddbbccccccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccccddbb1111111111111dd22ffffffccbbddddbbccccccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeebbccccccccddcc1111111111111ddccffffffffccdd11bbcceeecccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccccccffbb111111111111122ccffffffffccdd11bbcceeecceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccccccffbb111111111111122ccffffffffccdd11bbcceeecceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffccccccccbbccbb111111111111122ccffffffffccdd11bbccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccc44ccffccbbbbdd111111111111122ccffffffffffbb11bbccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccc44ccffccbbbbdd111111111111122ccffffffffffbb11bbccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccc4444ffffffccdd11111111111dd2222ffffffffffffbb11bbccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccc4444ffffffccdd11111111111dd2222ffffffffffffbb11bbccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecc44444444ffffccdd11111111111ddffffffffffffffffffbbddbbccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecc4444444444cccccc1111111111111ddffffffffffffffffffffccbbccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecc4444444444cccccc1111111111111ddffffffffffffffffffffccbbccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecc4444444444cceecccc111111111111122ffffffffffffffffffffffbbbbccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccc44444444cceeeecccc111111111111122ffffffffffffffffffffffbbbbbbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccc44444444cceeeecccc111111111111122ffffffffffffffffffffffbbbbbbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeecc44444444cceeeeeeccbb111111111111122ffffffffffffffffffffffbbbbbbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeccccc44444444cceeeeeeffbbdd111111111111122ffffffffffffffffffffffbbbbbbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeccccc44444444cceeeeeeffbbdd111111111111122ffffffffffffffffffffffbbbbbbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeccccc444444cccceeeeeeeeffdd1111111111111ddffffffffffffffffffffffffdddddddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeccccc444444cccceeeeeeeeffdd1111111111111ddffffffffffffffffffffffffdddddddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeecc4444444cccceeeeeeeeeeffdd111111ddddbbbbbffffffffffffffffffffffffbbdddddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeecc4444444cccceeeeeeeeeeeeffdd111111ddfffffffffffffffffffffffffffffffffccbbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeecc4444444cccceeeeeeeeeeeeffdd111111ddfffffffffffffffffffffffffffffffffccbbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeecc4444ccccceeeeeeeeeeeeeeeeffdd1111ddbbfffffffffffffffffffffffffffffffffccbbbeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeecc4444ccccceeeeeeeeeeeeeeeeeeffbbbbbbccfffffffffffffccccccccffffffffffffccccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeecc4444ccccceeeeeeeeeeeeeeeeeeffbbbbbbccfffffffffffffccccccccffffffffffffccccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeecc444444cceeeeeeeeeeeeeeeeeeeeeccccbbccfffffffffffffcceeeeeeccffffffccccccccccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeecc4444cccceeeeeeeeeeeeeeeeeeeeeeeeeccfffffffffffffffffeeeeeeeeeeccffffcccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeecc4444cccceeeeeeeeeeeeeeeeeeeeeeeeeccfffffffffffffffffeeeeeeeeeeccffffcccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeecc4444cceeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccfffffffffffcceeeeeeeeeeeeffffccffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeecc4444cceeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccfffffffffffcceeeeeeeeeeeeffffccffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeecc4444cceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefffffffffffeeeeeeeeeeeeeeeeccffffffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeecc4444cceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefffffffffffeeeeeeeeeeeeeeeeccffffffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeecc4444cceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefffffffffffeeeeeeeeeeeeeeeeccffffffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeecc44cceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccfffffffffeeeeeeeeeeeeeeeeccffffffcceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeecccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccfffffeeeeeeeeeeeeeeeeccffcccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeecccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccfffffeeeeeeeeeeeeeeeeccffcccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeecceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccccfffffeeeeeeeeeeeeeeeeccffffffffffcceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccccccccccfffffffccccccccccccccccffffffffffffffccccccccccccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccccccccccfffffffccccccccccccccccffffffffffffffccccccccccccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccfffffffffffffffffffffffffffffffffffffffffffccccccfffffffffffffffffcceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccfffffffffffffffffffffffffffffffffffffffffffccccccfffffffffffffffffcceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-cffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcccceee
-ecccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccceee
-ecccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccceee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-`;
             case "icmH]vZn|LFS;Bx@nWMs":
             case "frame":return img`
 .3333333333333333333333.
@@ -327,82 +29,6 @@ eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 355394499449944994493553
 355399449944994499443553
 .3333333333333333333333.
-`;
-            case "7Q|xxM7+1c6jmrOoF|j!":
-            case "coincursor":return img`
-. . b b b . . 
-. b 5 5 5 b . 
-b 5 d 3 d 5 b 
-b 5 1 5 3 5 b 
-c d 1 5 3 5 c 
-c d d 1 d 5 c 
-. f d d d f . 
-. . f f f . . 
-`;
-            case "]+_Qv~OpWU%;{Lv85]WS":
-            case "kingdom":return img`
-bbbd.........dbbbbbb.bbbbd....bbbbd............bbbb..........dbbbbbbbbbbbbbbbbbbb..bbbbbbbbbbbbbbbbbd................ddbbbbd.........dbbbb................dbbbb
-fffb........bfffffcd.cfffb....fffffd..........dffffd.......bcfffffffffffffffffffb..ffffffffffffffffffcb............dcfffffffcb.......bffffb...............cffff
-fffb......dcfffffb...cfffb....fffffcd.........dffffd.....dcffffffffffffffffffffc...ffffffffffffffffffffcd.........bfffffffffffcd.....bfffff..............dfffff
-fffb.....bfffffcd....cfffb....ffffffcd........dffffd....bffffffffffffffffffffffb...ffffffffffffffffffffffd.......bffffffffffffffd....bfffffb.............cfffff
-fffb....cfffffcd.....cfffb....fffffffc........dffffd...dfffffffcccccccccccccccc....ffffccccccccccccfffffffd.....bfffffffccfffffffd...bffffffd...........bffffff
-fffb..dcfffffb.......cfffb....ffffffffb.......dffffd..dcffffcb.....................ffffd...........dbcffffc....dfffffcd...dbcffffc...bffffffc...........cffffff
-fffb.bfffffcd........cfffb....fffffffffb......dffffd..bffffc.......................ffffd.............dcffffd...cffffb.......dcffffd..bfffffffd.........bfffffff
-fffccfffffb..........cfffb....ffffbfffffb.....dffffd..cfffc........................ffffd..............dffffc..dffffc.........dffffc..bfffffffc........dffffffff
-ffffffffcd...........cfffb....ffffdbfffffd....dffffd.dffffb.....ddddddddddd........ffffd...............bffffd.bffffd..........bffffd.bffffffffd.......bffffffff
-fffffffcd............cfffb....ffffd.bffffcd...dffffd.bffffd....dffffffffffc........ffffd...............dffffd.cfffc...........dffffd.bffffcfffc......dffffcffff
-ffffffb..............cfffb....ffffd..cffffc...dffffd.bfffc.....dfffffffffffb.......ffffd................ffffb.cfffb............ffffb.bffffbffffb.....cffffbffff
-ffffffd..............cfffb....ffffd...cffffc..dffffd.bfffc.....dffffffffffffd......ffffd................ffffb.cfffb............ffffb.bffffdcfffc....dffffbbffff
-fffffffb.............cfffb....ffffd...dcffffb.dffffd.bffffd....dcfffffffffffb......ffffd...............dffffd.cfffc...........dffffd.bffffddffffd...cffff.bffff
-ffffffffcd...........cfffb....ffffd....dfffffbdffffd.dffffd.............bffffd.....ffffd...............bffffd.bffffd..........bffffd.bffffd.cffff..dffffb.bffff
-fffccfffffb..........cfffb....ffffd.....dfffffbffffd..ffffc..............cfffc.....ffffd..............dffffc..dffffb.........dcfffc..bffffd.bffffb.cffffd.bffff
-fffb.cfffffc.........cfffb....ffffd......bfffffffffd..bffffc.............dffffd....ffffd..............cffffd...cffffb........cffffd..bffffd..cfffcdffffb..bffff
-fffb..bfffffcb.......cfffb....ffffd.......bffffffffd..dfffffcd............cfffc....ffffd............bcffffc....dfffffcd....bcffffc...bffffd..dfffffffffd..bffff
-fffb...dcfffffb......cfffb....ffffd........cfffffffd...bffffffcccccccccccccffffb...ffffccccccccccccfffffffd.....cffffffcccfffffffd...bffffd...cfffffffb...bffff
-fffb.....bfffffcd....cfffb....ffffd.........cffffffd....bffffffffffffffffffffffc...ffffffffffffffffffffffd.......cffffffffffffffd....bffffd...bfffffffd...bffff
-fffb......dcfffffb...cfffb....ffffd.........dcfffffd.....bffffffffffffffffffffffb..ffffffffffffffffffffcd.........bfffffffffffcd.....bffffd....cfffffb....bffff
-fffb........cfffffcd.cfffb....ffffd..........dfffffd......dbfffffffffffffffffffff..fffffffffffffffffffb............dcffffffffb.......bffffd....bfffffd....bffff
-cccd.........bcccccb.bcccd....bcccd...........dccccd........dbbccccccccccccccffffb.bcccccccccccccccbd................dbbccbd.........dcccc......bcccb.....dcccc
-.............................................................................bfffc.............................................................................
-..............................................................................cfffb............................................................................
-..............................................................................bffffd...........................................................................
-...............................................................................bcccb...........................................................................
-`;
-            case "image4":
-            case "BLueknight0":return img`
-......................
-......................
-......................
-......3333............
-....3366663...........
-...3c666ccc3..........
-....3ccc3ffff.........
-.....333.f88f.........
-........ffffffff......
-......ff88888888ff....
-....ff28888888fff2f...
-....f22288888f288ff...
-...f2222222ff22888ff..
-...f22222ff22228888f..
-...f222ff22222f8f888f.
-..3f22f2222f2ff8ff222f
-.382ff22f2ff2ff8ff2f2f
-38282f2ff2ff2ff8ff2f2f
-38282f2ff2ff2ff8ff2f2f
-.382ff22f2ff2ff2ff2f2f
-..3322f2282f2ff2ff282f
-....33ff222282f2f822f.
-..fffc6a3f222222222f..
-..fae666cf33332223fcf.
-..f6c66aef22223333a6f.
-..f66fffff22222c23fff.
-..f6a3cccc22222c23....
-..f6c3ccccccccc2c3....
-..fa63cccc22222223....
-..3663333333333333....
-..3ce3.3ccc3..3cc3....
-..3333.33333..3333....
-......................
 `;
             case "image5":
             case "BLueknight1":return img`
@@ -547,6 +173,483 @@ cccd.........bcccccb.bcccd....bcccd...........dccccd........dbbccccccccccccccfff
 ...36663ccc3633cc3....
 ...3333333333.3333....
 ......................
+`;
+            case "image3":
+            case "82x0":return img`
+4444499999999999999999999999999999999994499994499994499999994444499999999999999999999999999999999994499999444499944944444999999999999999999999999999999999944999
+9994444499999999999999999999999999999444999944449999449999999994444499999999999999999999999999999444999944444999449999944444999999999999999999999999999994449999
+9999994444444999999999999999999999444499999444444999944499999999994444444999999999999999999999444499999444499994499999999944444449999999999999999999994444999994
+9999999994444444444444499999994444499999944449944499994444999999999994444444444444499999994444499999344449999944449999999999944444444444444999999944444999999444
+49999999999999999999999999994444999999944449999944f9999944444999999999999999999999999999444493333334444999999f49444449999999999999999999999999994444999999944449
+444444449999999999999999999999999999944499999994444f99999994444444449999999999999933333333333339944499999994f499999444444444999999999999999999999999999994449999
+9999444444444999999999999999999999444499999994444444ff9999999999444444444999993333333333399999444499933994ff4449993999994444444449999999999999999999994444999999
+999339999999999999999999999999944449999999444444449999fff9999999999999999999999999999999999444499333394fff499444449333339999999999999999999999999994444999999944
+99999333399999999999999999999999999999994444444449999944fff999999999999999999999999999999999333333394fff44999994444499333333333333333333399999999999999999994444
+4444999333333333333333399999999999994444449999999994444499ffff449999999999333333333333333333333944ffff9944444999994444449333333333333399999999999999999944444444
+444444444493333333333999999999944444449999999999444449999ff44fffffff449999999999993333333339fffffff44ff999944444999999444444449999999999999999999994444444444444
+44444444444444444444444444444444499444444449999444999999ff4444444444ffffffffffffffffffffffff4444444444ff99999944499994444444444444444444444444444444444444444444
+444444444449999999999999944999999999999999999999999994ff444444444444444444444444444444444444444444444444ff499999999999999999999999999449999999999999944444444444
+444444444499999999999999999444499999999999999999999fff4444444444444444449444444444444444444944444444444444fff499999999999999999994444999999999999999994444444444
+444444444499999999999999999944444444999999999444fff4444444444444444444449999994444444444999944444444444444444fff444999999999444444449999999999999999994444444444
+44444444499999999999999999994444444444444444ffff4444444444444444444444449999999999999999999944944444444444444444ffff44444444444444449999999999999999999444444444
+44444444499999999999999999994499994ffffffffffff44444444444444444444444449999999999999999999944994444444444444444fffffffffffff49999449999999999999999999444444444
+4444444499999999999999999999449999444494fffffff44444444444444444444499449999999999999999999949994444444444444444ffffffff4944449999449999999999999999949944444444
+4444444499999999999999999994499999449944ffffff444444444444444444444499449999999999999999999949994444444444444444ffffffff4499449999944999999999999999999944444444
+444444449999999999999999994449999944994fffffff444444444444444444444499449999999999999999999949994444444444444444fffffffff499449999944499999999999999994944444444
+444444499999999999999999994499999949944fffffff444444444444444444444499449999999999999999999949994444444444444444fffffffff449949999994499999999999999994994444444
+44444449999999999999999994499999944994ffffffff4444444444444444449444994499999999999999999999499944449444444444444fffffffff49944999999449999999999999994994444444
+44444499499999999999999994499999949944ffffffff4444444444444444449444994499999999999999999999499994449444444444444fffffffff44994999999449999999999999999499444444
+44444499499999999999999944999999449444ffffffff4444444444444444449449994999999999999999999999499994449444444444444fffffffff43494499999944999999999999999499444444
+4444499449999999999999994499999449944fffffffff4444444444444444449449994999999999999999999999949994449444444444444ffffffffff4399449999944999999999999999449944444
+4444499499999999999999944999999449444ffffffff44444444444444444499449994999999999999999999999949994449444444444444ffffffffff4349449999994499999999999999949944444
+444499449999999999999994999999449944fffffffff444444444444444444994499949999999999999999999999499944499444444444444ffffffffff439944999999499999999999999944994444
+44449944994999999999994499999449944ffffffffff444444444444444444994499949999999999999999999999499944449444444444444fffffffffff33994499999449999999999949944994444
+44449449999999999999994999999444944ffffffffff444444444444444444994499949999999999999999999999499994449444444444444fffffffffff43394499999949999999999999994494444
+4449944994999999999994999999444444ffffff4ffff444444444444444444994499949999999999999999999999499994449444444444444ffffffffffff3399449999994999999999994994499444
+4449449994999999999994999994444444ffffff4ffff444444444444444444994499949999999999999999999999499994449444444444444ffffffffffff4339944999994999999999994999449444
+449944994999999999994999999449444fffffff4fff44444444444444444449944999499999999999999999999994999944494444444444444ffffffffffff433944999999499999999999499449944
+449444944999999999949999994499444fffffff4fff44f44444444444444499944994499999999999999999999994999944499444444444444ffffffffffff433994499999949999999999449444944
+44444994499999999994999994499444ffffffffffff44f44444444444444499444994499999999999999999999994999944499444444444444fffffffffffff43399449999949999999999449944444
+4444494499999999999999994449944ffffffff4ffff44f44444444444444499444994499999999999999999999994999944499444444444444f4ffffffffffff4339444999999999999999944944444
+4444994499999999999999994499444ffffffff4ffff44f44444444444444499449994499999999999999999999994999944499444444444444f4ffff4fffffff4333944999999999999999944994444
+444494499999999999999994499444fffffffff4ffff44f4444444444444449944999499999999999999999999999499994449944444444444444ffff4ffffffff433994499999999999999994494444
+44449449999999999999994499944ffffffffff4fff444444444444444444499449994999999999999999999999994999944499444444444444444fff4fffffffff43399449999999999999994494444
+44494499999999999999994499444ffffffffff4fff444444444444444444499449994999999999999999999999994999994499444444444444444fff4fffffffff44339449999999999999999449444
+4449449999999999999994499444fffffffffff4fff44f444444444444444499449994999999999999999999999994499994449444444444444444fff4ffffffffff4333944999999999999999449444
+449449999999999999999499444fffffffffff44fff44f444444444444444999449994999999999999999999999994499994449944444444444444ffff4ffffffffff433994939999999999999944944
+44944999999999999939499944ffffffffffff44fff44f4444444444444449944499949999999999999999999999944999944499444444444444444fff4fffffffffff43399439999999999999944944
+49449999999999999499499444ffffffffffff44fff44f4444444444444449944999949999999999999999999999944999944499444444444444444fff4fffffffffff44339493999999999999994494
+4944999999999999449499444fffffffffffff44fff44f4444444444444449944999949999999999999999999999944999944499444444444444444fff4ffffffffffff4339993999999999999994494
+444999999999999449499444ffffffffffffff44ff44444444444444444449944999999999999999999999999999944999944499444444444444444fff4fffffffffffff433994399999999999999444
+44499999999999949999444fffffffffffffff4fff44f444444444444444499449999999999999999999999999999449999444994444444444444444ff44fffffffffffff43399399999999999999444
+44999999999999449999444ffffffffffffff44fff44f444444444444444999449999999999999999999999999999949999444994444444444444444ff44fffffffffffff44399339999999999999944
+4499999999999449999444fffffffffffffff44fff44f444444444494444999449999999999999999999999999999949999444994444444444444444ff44ffffffffffffff4439939999999999999944
+499999999999449999444ffffffffffffffff44fff44f444444444494444994449999999999999999999999999999949999444994444444444444444fff4fffffffffffffff433933999999999999994
+49999999999944999444fffffffffffffffff44fff44f444444444444444994449999999999999999999999999999949999444494444444444444444fff44fffffffffffffff43993999999999999994
+99999499999449994444fffffffffffffffff44fff44f4444444449444449944999999999999999999999999999999499999444994444444444444444ff44fffffffffffffff44493399999999499999
+9999949999449944444ffffffffffffffffff44ff44f44444444449444449944999999999999999999999999999999499999444994444444444444444ff44ffffffffffffffff4449399999999499999
+999999999449999444ffffffffffffffffff44fff44f44444444449444499944999999999999999999999999999999499999444994444444444444444ff44fffffffffffffffff444339999999999999
+99994999944999444fffffffffffffffffff44fff44f44444444449444499944999999999999999999999999999999499999444994444444444444444fff4ffffffffffffffffff44439999999949999
+99994999449999444fffffffffffffffffff44fff44f44444444449444499944999999999999999999999999999999499999444994444444444444444fff44fffffffffffffffff44433999999949999
+9994999449999444ffffffffffffffffffff44fff44f44444444499444499944999999999999999999999999999999499999444994444444444444444fff44ffffffffffffffffff4443999999994999
+999499949499444fffffffffffffffffffff44fff44f444444444944444994449999999999999999999999999999999999994449944444444444444444ff44fffffffffffffffffff443394999994999
+99949999949444ffffffffffffffffffffff44fff4f4444444444944444994499999999999999999999999999999999999994449944444444444444444ff44ffffffffffffffffffff44394999994999
+9944999949444ffffffffffffffffffffff44ffff4f4444444444944449994499999999999999999999999999999999999994449944444444444444444fff4fffffffffffffffffffff4439499994499
+9949999949444ffffffffffffffffffffff44ffff4f4444444449944449994499999999999999999999999999999999999994449994444444444444444fff44ffffffffffffffffffff4439499999499
+994999944444fffffffffffffffffffffff44fff44f4444444449944449994499999999999999999999999999999999999994449994444444444444444fff44fffffffffffffffffffff444449999499
+94499994444ffffffffffffffffffffffff44fff44f4444444449944449994499999999999999999999999999999999999994444994944444444444444fff44ffffffffffffffffffffff44449999449
+9499994444fffffffffffffffffffffffff44fff4f444444444494444499944999999999999999999999999999999999999944449944444444444444444ff44fffffffffffffffffffffff4444999949
+9499944494ffffffffffffffffffffffff444fff4f444444444494444999444999499999999999999999999999999999999944449944944444444444444fff44ffffffffffffffffffffff4944499949
+9499944494ffffffffffffffffffffffff44ffff4f444444444994444999449999499999999999999999999999999999999944449944944444444444444fff44ffffffffffffffffffffff4944499949
+4499444494ffffffffffffffffffffffff44ffff4f444444444994444999449999499999999999999999999999999994999994449944944444444444444fff44ffffffffffffffffffffff4944449944
+4499444994ffffffffffffffffffffffff44ffff4f444444444994444999449999499999999999999999999999999994999994449944944444444444444fff44ffffffffffffffffffffff4994449944
+4444449944ffffffffffffffffffffffff44ffff444444444449944449994499994999999999999999999999999999949999944499449444444444444444ff44ffffffffffffffffffffff4499444444
+444449994fffffffffffffffffffffffff44ffff444444444449444449994499994999999999999999999999999999949999944499949944444444444444fff44ffffffffffffffffffffff499944444
+999999944ffffffffffffffffffffffff444fff4444444444499444499994499994999999999999999999999999999949999944499949944444444444444fff44ffffffffffffffffffffff449999999
+99999944fffffffffffffffffffffffff44ffff4444444444499444499994999994999999999999999999999999999949999944499944944444444444444fff44fffffffffffffffffffffff44999999
+99999444fffffffffffffffffffffffff44ffff44444444444994444999449999949999999999999999999999999999499999444499449444444444444444ff44fffffffffffffffffffffff44499999
+99944444fffffffffffffffffffffffff44ffff44444444444994444999449999949999999999999999999999999999499999444499449444444444444444fff44ffffffffffffffffffffff44444999
+444494444ffffffffffffffffffffffff44ffff44444444449944444999449999449999999999999999999999999999499999444499449444444444444444fff44fffffffffffffffffffff444494444
+999494494ffffffffffffffffffffffff44ffff44444444449944449999449999449999999999999999999999999999499999444499449944444444444444fff44fffffffffffffffffffff494494999
+999494494fffffffffffffffffffffff444ffff44444444449944449999449999449999999999999999999999999999499999444499449944444444444444fff44fffffffffffffffffffff494494999
+999494494fffffffffffffffffffffff44fffff44444444449944449999449999449999999999999999999999999999499999444499949944444444444444ffff44ffffffffffffffffffff494494999
+999494494fffffffffffffffffffffff44fffff4444444449944444999944999944999999999999999999999999999949999944449994994444444444444fffff44ffffffffffffffffffff494494999
+9994944994ffffffffffffffffffffff44fffff44444444499444499999499999449999999999999999999999999999449999444499944944444444444444ffff44fffffffffffffffffff4994494999
+9994944994ffffffffffffffffffffff44ffff444444444499444499999499999449999999999999999999999999999449999444449944944444444444444fffff4fffffffffffffffffff4994494999
+9994944494ffffffffffffffffffffff44ffff444444444499444499999499999449999999999999999999999999999449999444449944994444444444444fffff4fffffffffffffffffff4944494999
+99949944944fffffffffffffffffffff4fffff444444444999444999994499999449999999999999999999999999999449999444449944994444444444444ffffffffffffffffffffffff44944994999
+99949944994fffffffffffffffffffff4fffff4444444449944449999944999994499999999999999999999999999994499994444499449944444444444444fffffffffffffffffffffff49944994999
+99949944994fffffffffffffffffffff4fffff4444444449944449999944999994999999999999999999999999999994499994444499449944444444444444fffffffffffffffffffffff49944994999
+99949944994fffffffffffffffffffffffffff4444444449944499999944999994999999999999999999999999999994499999444499949944444444444444fffffffffffffffffffffff49944994999
+999499449994ffffffffffffffffffffffffff44444444499444999999449999949999999999999999999999999999944999994444999449444444444444444fffffffffffffffffffff499944994999
+999499444994ffffffffffffffffffffffffff44444444994444999999499999949999999999999999999999999999944999994444999449944444444444444fffffffffffffffffffff499444994999
+999499944994ffffffffffffffffffffffffff444444449944449999994999999499999999999999999999999999999449999944449994499444444444444fffffffffffffffffffffff499449994999
+9994999449944ffffffffffffffffffffffff4444444449944499999994999999449999944449994444999444499999449999994444999994444444444444ffffffffffffffffffffff4499449994999
+9994999449994fffffff2ffffffff222fffff224444424444444499944b444444dd4444444d444444444444d4444444dd444444b444994444444424444422fffff222ffffffff2fffff4999449994999
+999499944999422fff22222fffff22222222222222222244222244444ddd4444ddddd444dddd4444dd4444dddd444ddddd4444dbbbb444222244222222222222222222fffff22222fff4999449994999
+99944994499944222222222222222222222222222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddd22222222222222222222222222222222222222244999449944999
+99944994499994222222222222222222222222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd22222222222222222222222222222222222249999449944999
+99994999499994422222222222222222222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd22222222222222222222222222222222449999499949999
+999949994499994222222222222222222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd222222222222222222222222222222499994499949999
+9999499944999942222222222222222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd2222222222222222222222222222499994499949999
+99994999449999442222222222222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd22222222222222222222222224499994499949999
+9999499994994994222222222222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd2222222222222222222222224994994999949999
+999999999499499442222222222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd222222222222222222222244994994999999999
+99999999949949994222222222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd22222222222222222222249994994999999999
+99999999994994994422222222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd22222222222222222222449949949999999999
+9999994999499499942222222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd2222222222222222222499949949994999999
+9999994999999499944222222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd2222222222222222224499949999994999999
+9999994999999949994222222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd2222222222222222224999499999994999999
+9999994499999949994422222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd2222222222222222244999499999944999999
+99999994999999499994222222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd22222222222222222249999499999949999999
+99999494999999949994422222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd22222222222222222449994999999949499999
+999994949999999499944222222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd222222222222222222449994999999949499999
+9999949499999999499422222222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd2222222222222222222249949999999949499999
+99999494499999994994222222222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd22222222222222222222249949999999449499999
+9999949449999999444422222222222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd2222222222222222222222244449999999449499999
+999994994999999944422222222222222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd222222222222222222222222224449999999499499999
+99999449499999994422222222222222222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd22222222222222222222222222222449999999494499999
+99999449499999944222222222222222222222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd22222222222222222222222222222222244999999494499999
+99999949449999942222222222222222222222222222222222222dddddddddddddddddddddddddddddddddddddddddddddddddddddd22222222222222222222222222222222222224999994494999999
+999999499499994422222222222222222222222222222222222222222dddddddddddddddddddddddddddddddddddddddddddddd222222222222222222222222222222222222222224499994994999999
+999999499499444222222222222222222222222222222222222222222222222dddddddddddddddddddddddddddddddddd222222222222222222222222222222222222222222222222444994994999999
+9999994944444222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222224444494999999
+9999994942222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222494999999
+9999994442222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222444999999
+`;
+            case "image9":
+            case "myImage":return img`
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+`;
+            case "image2":
+            case "Knight_doge_visor_up":return img`
+.........................
+.........................
+.........................
+.........3333............
+.......3399993...........
+......349994443..333.....
+.......34443fffff288ff...
+........333.f8ff22888ff..
+...........fff22228888f..
+.........fff22222f8f888f.
+.......fff2222f2ff8ff222f
+.......f2f2f2ff2ff8ff2f2f
+......f22fff2ff2ff8ff2f2f
+......f22fff2ff2ff8ff2f2f
+......f22f2f2ff2ff2ff2f2f
+.....3f22f2282f2ff2ff282f
+....382ff23222282f2f822f.
+...38282f2f3f222222222f..
+...38282f311f33332223ff..
+....382ff3113111333331f..
+..fff332223313111113ff...
+..f1f.3222311311ff13f....
+..f1f.32223113119113f....
+..f1ff32223111111111f....
+..f11132222333333333f....
+..ffff3222222ccccc223....
+......322222222c22223....
+.......33333333333333....
+.......32232f.3223223....
+.......33333f.3333333....
+.........................
+.........................
+.........................
+`;
+            case "image1":
+            case "Knight_dogeidle":return img`
+.........................
+.........................
+.........................
+.........3333............
+.......3399993...........
+......349994443..........
+.......34443ffff.........
+........333.f88f.........
+...........ffffffff......
+.........ff88888888ff....
+.......ff28888888fff2f...
+.......f22288888f288ff...
+......f2222222ff22888ff..
+......f22222ff22228888f..
+......f222ff22222f8f888f.
+.....3f22f2222f2ff8ff222f
+....382ff22f2ff2ff8ff2f2f
+...38282f2ff2ff2ff8ff2f2f
+...38282f2ff2ff2ff8ff2f2f
+....382ff22f2ff2ff2ff2f2f
+..fff3322f2282f2ff2ff282f
+..f1f.33333222282f2f822f.
+..f1f.322223f222222222f..
+..f1ff322222f33332223f...
+..f111322222222c33333....
+..ffff3222222ccccc223....
+......322222222c22223....
+......f33333333333333....
+......322323...322323....
+......333ff3...333333....
+.........................
+.........................
+.........................
+`;
+            case "image4":
+            case "Knight_dogeforward":return img`
+.........................
+.........................
+.........................
+.........3333............
+.......3399993...........
+......349994443..........
+.......34443ffff.........
+........333.f88f.........
+...........ffffffff......
+.........ff88888888ff....
+.......ff28888888fff2f...
+.......f22288888f288ff...
+......f2222222ff22888ff..
+......f22222ff22228888f..
+......f222ff22222f8f888f.
+.....3f22f2222f2ff8ff222f
+....382ff22f2ff2ff8ff2f2f
+...38282f2ff2ff2ff8ff2f2f
+...38282f2ff2ff2ff8ff2f2f
+....382ff22f2ff2ff2ff2f2f
+..fff3322f2282f2ff2ff282f
+..f1f.33333222282f2f822f.
+..f1f.322223f222222222f..
+..f1ff322222f33332223f...
+..f111322222222c33333....
+..ffff3222222ccccc223....
+......322222222c22223....
+......3f33333333333333...
+.......322323...322323...
+.......333ff3...333333...
+.........................
+.........................
+.........................
+`;
+            case "image8":
+            case "Knight_dogebackward":return img`
+.........................
+.........................
+.........................
+.........3333............
+.......3399993...........
+......349994443..........
+.......34443ffff.........
+........333.f88f.........
+...........ffffffff......
+.........ff88888888ff....
+.......ff28888888fff2f...
+.......f22288888f288ff...
+......f2222222ff22888ff..
+......f22222ff22228888f..
+......f222ff22222f8f888f.
+.....3f22f2222f2ff8ff222f
+....382ff22f2ff2ff8ff2f2f
+...38282f2ff2ff2ff8ff2f2f
+...38282f2ff2ff2ff8ff2f2f
+....382ff22f2ff2ff2ff2f2f
+..fff3322f2282f2ff2ff282f
+..f1f.33333222282f2f822f.
+..f1f.322223f222222222f..
+..f1ff322222f33332223f...
+..f111322222222c33333....
+..ffff3222222ccccc223....
+......322222222c22223....
+.....3f33333333333333....
+.....322323...322323.....
+.....333ff3...333333.....
+.........................
+.........................
+.........................
+`;
+            case "y{K-k94]`F1|Ai_(auH:":
+            case "SWordiconfacingupright":return img`
+. . . . . . . . . . . . . 3 3 3 
+. . . . . . . . . . . . 3 8 2 3 
+. . . . . . . . . . . 3 8 2 8 3 
+. . . . . . . . . . 3 8 2 8 3 . 
+. . . . . . . . . 3 8 2 8 3 . . 
+. . . . . . . . 3 8 2 8 3 . . . 
+. . 3 3 . . . 3 8 2 8 3 . . . . 
+. . 3 b 3 . 3 8 2 8 3 . . . . . 
+. . . 3 b 3 8 2 8 3 . . . . . . 
+. . . 3 b 3 2 8 3 . . . . . . . 
+. . . . 3 b 3 3 . . . . . . . . 
+. . . 3 4 3 b b 3 . . . . . . . 
+. . 3 4 3 . 3 3 b 3 . . . . . . 
+3 3 4 3 . . . . 3 3 . . . . . . 
+3 5 3 . . . . . . . . . . . . . 
+3 3 3 . . . . . . . . . . . . . 
+`;
+            case "image10":
+            case "SWordiconFacingdownleft":return img`
+. . . . . . . . . . . . . 3 3 3 
+. . . . . . . . . . . . . 3 5 3 
+. . . . . . 3 3 . . . . 3 4 3 3 
+. . . . . . 3 b 3 3 . 3 4 3 . . 
+. . . . . . . 3 b b 3 4 3 . . . 
+. . . . . . . . 3 3 b 3 . . . . 
+. . . . . . . 3 8 2 3 b 3 . . . 
+. . . . . . 3 8 2 8 3 b 3 . . . 
+. . . . . 3 8 2 8 3 . 3 b 3 . . 
+. . . . 3 8 2 8 3 . . . 3 3 . . 
+. . . 3 8 2 8 3 . . . . . . . . 
+. . 3 8 2 8 3 . . . . . . . . . 
+. 3 8 2 8 3 . . . . . . . . . . 
+3 8 2 8 3 . . . . . . . . . . . 
+3 2 8 3 . . . . . . . . . . . . 
+3 3 3 . . . . . . . . . . . . . 
+`;
+            case "image12":
+            case "SWordiconFacingdownright":return img`
+3 3 3 . . . . . . . . . . . . . 
+3 5 3 . . . . . . . . . . . . . 
+3 3 4 3 . . . . 3 3 . . . . . . 
+. . 3 4 3 . 3 3 b 3 . . . . . . 
+. . . 3 4 3 b b 3 . . . . . . . 
+. . . . 3 b 3 3 . . . . . . . . 
+. . . 3 b 3 2 8 3 . . . . . . . 
+. . . 3 b 3 8 2 8 3 . . . . . . 
+. . 3 b 3 . 3 8 2 8 3 . . . . . 
+. . 3 3 . . . 3 8 2 8 3 . . . . 
+. . . . . . . . 3 8 2 8 3 . . . 
+. . . . . . . . . 3 8 2 8 3 . . 
+. . . . . . . . . . 3 8 2 8 3 . 
+. . . . . . . . . . . 3 8 2 8 3 
+. . . . . . . . . . . . 3 8 2 3 
+. . . . . . . . . . . . . 3 3 3 
+`;
+            case "7Q|xxM7+1c6jmrOoF|j!":
+            case "coincursor":return img`
+. . . . . . . 
+. . . . . . . 
+. . . . . . . 
+. . . . . . . 
+. . . . . . . 
+. . . . . . . 
+. . . . . . . 
+. . . . . . . 
+`;
+            case "image11":
+            case "SWordiconfacingupleft":return img`
+3 3 3 . . . . . . . . . . . . . 
+3 2 8 3 . . . . . . . . . . . . 
+3 8 2 8 3 . . . . . . . . . . . 
+. 3 8 2 8 3 . . . . . . . . . . 
+. . 3 8 2 8 3 . . . . . . . . . 
+. . . 3 8 2 8 3 . . . . . . . . 
+. . . . 3 8 2 8 3 . . . 3 3 . . 
+. . . . . 3 8 2 8 3 . 3 b 3 . . 
+. . . . . . 3 8 2 8 3 b 3 . . . 
+. . . . . . . 3 8 2 3 b 3 . . . 
+. . . . . . . . 3 3 b 3 . . . . 
+. . . . . . . 3 b b 3 4 3 . . . 
+. . . . . . 3 b 3 3 . 3 4 3 . . 
+. . . . . . 3 3 . . . . 3 4 3 3 
+. . . . . . . . . . . . . 3 5 3 
+. . . . . . . . . . . . . 3 3 3 
 `;
         }
         return null;
